@@ -4,3 +4,10 @@
 model部分有三个，centerloss的可以自己做适当修改
 
 resnet50可以跑到val_acc = 0.94左右
+
+# data_split 
+ratio是一个浮动的参数，可以分配train和val的数据。
+
+文件是按照ratio随机划分的，需要PIL包。不会的可以用pip install PIL
+
+自己替换自己路径就可以了。
